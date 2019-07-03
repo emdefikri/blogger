@@ -449,13 +449,13 @@ pre {
 
 #logo {
     height: 53px;
-    background: url(/skins/default/images/logo.png) no-repeat top right;
+    background: url(https://cdn.emde.web.id/image/logo.png) no-repeat top right;
     background-size: contain;
     text-align: right;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     #logo {
-        background-image: url(/skins/default/images/logox2.png);
+        background-image: url(https://cdn.emde.web.id/image/logox2.png);
     }
 }
 
@@ -625,31 +625,31 @@ body > footer {
     .offline,
     .archive,
     .tags {
-        background: url(/skins/default/images/clone.jpg) no-repeat;
+        background: url(https://cdn.emde.web.id/image/clone.jpg) no-repeat;
     }
     .journal {
-        background: url(/skins/default/images/bandstand.jpg) no-repeat;
+        background: url(https://cdn.emde.web.id/image/bandstand.jpg) no-repeat;
     }
     .links {
-        background: url(/skins/default/images/scaffold.jpg) no-repeat;
+        background: url(https://cdn.emde.web.id/image/scaffold.jpg) no-repeat;
     }
     .articles {
-        background: url(/skins/default/images/florence.jpg) no-repeat;
+        background: url(https://cdn.emde.web.id/image/florence.jpg) no-repeat;
     }
     .notes {
-        background: url(/skins/default/images/tokyo.jpg) no-repeat;
+        background: url(https://cdn.emde.web.id/image/tokyo.jpg) no-repeat;
     }
     .about {
-        background: url(/skins/default/images/stage.jpg) no-repeat;
+        background: url(https://cdn.emde.web.id/image/stage.jpg) no-repeat;
     }
     .search {
-        background: url(/skins/default/images/alaska.jpg) no-repeat;
+        background: url(https://cdn.emde.web.id/image/alaska.jpg) no-repeat;
     }
     .extras {
-        background: url(/skins/default/images/chicago.jpg) no-repeat;
+        background: url(https://cdn.emde.web.id/image/chicago.jpg) no-repeat;
     }
     .contact {
-        background: url(/skins/default/images/curved.jpg) no-repeat;
+        background: url(https://cdn.emde.web.id/image/curved.jpg) no-repeat;
     }
 
     nav {
