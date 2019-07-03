@@ -727,6 +727,101 @@ body > footer {
 
 /* Custom Elements */
 
+.sr {
+    position: absolute !important;
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px 0 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden
+}
+
+ul.breadcrumb-list li,
+ul.topic-list li {
+    list-style: none;
+    display:inline-block;
+    padding: 0 1.2em 0 0;
+}
+
+.breadcrumb-list {
+    list-style: none;
+    display:inline-block;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-size: 0.625rem;
+    line-height: 1;
+}
+
+h2.dh,h3.dh {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-size: 0.625rem;
+    line-height: 1;
+}
+
+aside section {
+    font-family : Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-size: 0.6875rem;
+    line-height: 1.59;
+    padding: .45em 0.9em;
+    margin-bottom: .72em;
+    border: 1px dashed #ccc;
+    border-width: 0.0625rem;
+    background-color: #f2f2f2;
+    color: #4d4d4d;
+}
+aside section a:link {
+  color: #2a7af7;
+}
+aside section a:visited {
+  color: #2a7af7;
+}
+aside section p {
+    padding: 0.9em 0 0.45em;
+}
+aside section h3 {
+    color: #666;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    padding-top: 1.1333em;
+    padding-bottom: 0.5333em;
+}
+aside section h4 {
+    font-size: 12px;
+    font-size: 0.75rem;
+    padding-top: 1em;
+    padding-bottom: 0.6666em;
+}
+aside section ul li {
+    margin-left: 1em;
+    list-style-type: square;
+}
+
+
+body footer ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 0 1.2em 0 0;
+}
+
+li.t-list {
+    margin-bottom:1em;
+}
+.t-list a{
+    display: inline-block;
+    border: none;
+    border-radius: 1em;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #2a7af7;
+    color: #fff;
+}
+
 ul.sharebutton li {
     list-style: none;
     display:inline-block;
@@ -736,4 +831,78 @@ ul.sharebutton li {
     line-height: 1;
     padding: 0 0 1em;
 
+}
+label{
+    margin-top:1em;
+    margin-top:.5em;
+}
+label[for='name'],
+label[for='email'],
+label[for='tel'],
+label[for='subject'],
+label[for='message'],
+label[for='masalah'] {
+  display:block;
+  cursor:pointer;
+}
+input[id='search-internet'],
+input[id='name'],
+input[id='email'],
+input[id='tel'],
+input[id='subject'],
+input[id='message'],
+textarea[id='message'] {
+  display:block;
+}
+input[id='sumbit-message'],
+input[id='reset-message'] {
+  display:inline-block;
+}
+
+input[id='name'],
+input[id='email'],
+input[id='tel'],
+input[id='subject'],
+input[id='message'] {
+  width:100%;
+}
+
+input[id='search-internet'],
+textarea[id='message'] {
+  width:100%;
+}
+
+input[id='sumbit-message'],
+input[id='reset-message'] {
+  margin-top:1em;
+}
+
+@media print {
+body {
+    background: white;
+    color: black;
+    font-size: 12pt;
+    margin: 0 5%;
+}
+section.b-list,
+ul.s-list,
+section.a-summary,
+section.l-topic,
+section.l-ads,
+[role="navigation"],
+[role="presentation"],
+[role="complementary"],
+[role="contentinfo"] {
+    display: none;
+}
+[role="main"] {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a, a * {
+    color:#2a7af7;
+    text-decoration: none;
+    font-weight: bold;
+}
 }
