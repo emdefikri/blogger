@@ -775,10 +775,10 @@ aside section {
     color: #4d4d4d;
 }
 aside section a:link {
-  color: #2a7af7;
+  color: #b52;
 }
 aside section a:visited {
-  color: #2a7af7;
+  color: #b52;
 }
 aside section p {
     padding: 0.9em 0 0.45em;
@@ -819,7 +819,7 @@ li.t-list {
     text-decoration: none;
     padding-left: 1em;
     padding-right: 1em;
-    background-color: #2a7af7;
+    background-color: #b52;
     color: #fff;
 }
 
@@ -902,7 +902,7 @@ section.l-ads,
     border: none;
 }
 a, a * {
-    color:#2a7af7;
+    color:#b52;
     text-decoration: none;
     font-weight: bold;
 }
