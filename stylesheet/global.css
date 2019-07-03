@@ -723,3 +723,17 @@ body > footer {
 @media screen and (min-width: 130em) {
     body { margin: 0 20%;}
 }
+
+
+/* Custom Elements */
+
+ul.sharebutton li {
+    list-style: none;
+    display:inline-block;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    font-size: 0.625rem;
+    line-height: 1;
+    padding: 0 0 1em;
+
+}
