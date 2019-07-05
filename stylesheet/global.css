@@ -950,6 +950,9 @@ ul.related-posts {
     text-transform: uppercase;
     letter-spacing: 0.025em;
 }
+.all-labels {
+    margin-top:3em;
+}
 
 @media print {
 body {
