@@ -955,6 +955,11 @@ ul.related-posts {
     margin-top:50px;
 }
 
+p.labels a{color: #242424; text-transform: uppercase;font-size: 15px;}
+ol li{list-style-type:decimal;line-height:25px;}
+.sitemap-link a{display:none;}
+p ol li a{font-weight: bold;}
+
 @media print {
 body {
     background: white;
