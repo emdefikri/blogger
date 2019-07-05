@@ -878,6 +878,14 @@ input[id='reset-message'] {
   margin-top:1em;
 }
 
+.other-media a {
+    text-decoration: none;
+}
+
+.other-media a:hover {
+    text-decoration: none;
+}
+
 @media print {
 body {
     background: white;
