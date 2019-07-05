@@ -907,6 +907,7 @@ input[id='reset-message'] {
 .related-posts-container {
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .related-posts,
@@ -950,7 +951,7 @@ ul.related-posts {
     text-transform: uppercase;
     letter-spacing: 0.025em;
 }
-.all-labels {
+.all-labels, .margin-top-50 {
     margin-top:50px;
 }
 
