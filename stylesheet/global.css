@@ -886,6 +886,24 @@ input[id='reset-message'] {
     text-decoration: none;
 }
 
+.ad-active, .ad-empty {
+    background: 50% 50% no-repeat #b52;
+    background-size: 100% 100%;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.ad, .ad-active, .ad-empty, a.ad {
+    text-decoration: none;
+    display: block;
+}
+
+.ad-button .ad-empty {
+    line-height: 125px;
+}
+
 @media print {
 body {
     background: white;
