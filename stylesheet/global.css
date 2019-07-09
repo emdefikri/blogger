@@ -960,6 +960,21 @@ ol li{list-style-type:decimal;line-height:25px;}
 .sitemap-link a{display:none;}
 p ol li a{font-weight: bold;}
 
+
+li.update {
+    list-style: none;
+    height:60px;
+    overflow:hidden
+}
+.imgupdate {
+    float:left;
+    margin:5px 10px 0 5px
+}
+.tgl-com {
+    display:block;
+    font-size:90%
+}
+
 @media print {
 body {
     background: white;
