@@ -19,7 +19,7 @@ function updatedPosts(a) {
                 img = "https://cdn.emde.web.id/icon/apple-touch-icon-57x57.png"
             }
             content += '<li class="update"><img src="' + img.replace(/\/s72-c/, "/s40-c") + '" class="imgupdate" alt="thumb" height="40px" width="40px"/>';
-            content += '<strong><a href="' + link + '" target="_blank">' + title + '</a></strong><span class="tgl-com"> diposkan pada ' + date + "</span></li>";
+            content += '<strong><a href="' + link + '" target="_blank">' + title + '</a></strong><span class="tgl-com"> Dipublikasikan pada ' + date + "</span></li>";
         }
         ct.innerHTML = content
     }
