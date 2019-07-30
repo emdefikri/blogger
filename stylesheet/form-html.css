@@ -1,0 +1,209 @@
+form {
+  margin:0;
+  padding:0;
+}
+/* ignore this! */
+
+
+/* TAHAP PEMBENTUKAN ULANG */
+
+button,
+input,
+select,
+textarea {
+  display:inline-block; /* alternatif yang lebih baik dibandingkan `display:inline` */
+  vertical-align:middle; /* posisikan elemen ke tengah secara vertikal terhadap teks */
+  width:170px; /* tentukan lebar elemen secara umum */
+  margin:1px 0; /* tentukan `margin` elemen secara umum */
+  padding:4px; /* tentukan `padding` elemen secara umum */
+  font:normal normal 13px/normal Bembo,Georgia,serif; /* tentukan tipe fon secara umum */
+  color:#333; /* tentukan warna teks secara umum */
+  line-height:normal; /* tentukan `line-height` secara umum (deklarasi `line-height` pada selektor `font` di atas biasanya tidak bekerja pada elemen `<button>`) */
+  background-color:white; /* tentukan warna latar secara umum */
+  border:1px solid #333; /* tentukan `border` secara umum */
+
+  /* deklarasikan `box-sizing` yang seragam */
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+
+  /* hapus outline jika mungkin */
+  outline:none;
+  outline-offset:-2px;
+}
+
+
+/* TOMBOL */
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  width:auto; /* mengembalikan ukuran lebar ke keadaan semula */
+  background-color:#333; /* tentukan warna latar yang berbeda untuk elemen-elemen tombol */
+  color:white; /* tentukan warna teks yang berbeda untuk elemen-elemen tombol */
+
+  /* buat `padding` kiri dan kanan menjadi lebih lebar untuk membuatnya lebih gemuk */
+  padding-right:8px;
+  padding-left:8px;
+
+  font-weight:bold; /* buat teks menjadi tebal */
+  cursor:pointer; /* ubah kursor menjadi `pointer` untuk kenyamanan */
+  border-color:transparent; /* opsional */
+}
+
+
+/* PERBAIKI DIMENSI BEBERAPA ELEMEN INI */
+
+/* hilangkan nilai `width`, `border`, `padding`, `background` yang telah dibuat sebelumnya pada elemen-elemen ini */
+input[type="checkbox"],
+input[type="image"],
+input[type="radio"] {
+  width:auto;
+  padding:0;
+  background:none;
+  border:none;
+  cursor:pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  position:relative;
+  top:-2px;
+}
+
+/* set tipe kursor ke `pointer` untuk kenyamanan */
+input[type="color"],
+input[type="file"],
+select {
+  display:inline-block;
+  vertical-align:middle;
+  cursor:pointer;
+}
+
+label {
+  display:block;
+  vertical-align:middle;
+  cursor:pointer;
+}
+
+/* textarea */
+textarea {
+  overflow:auto;
+  display:block; /* set sebagai elemen blok */
+  width:100%; /* buat lebarnya menjadi 100% */
+  resize:vertical; /* agar `textarea` hanya bisa diubah ukurannya secara vertikal (lainnya: `both`, `horizontal`, `none`) */
+}
+
+
+/* MENORMALKAN ::-moz-focus-inner PADA TOMBOL-TOMBOL DI FIREFOX */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  margin:0;
+  padding:0;
+  border:none;
+  outline:none;
+}
+
+
+/* PSEUDO KELAS - :hover, :focus, :active */
+
+/* focus */
+input:focus,
+select:focus,
+textarea:focus {background-color:#ffa}
+
+/* focus */
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {background-color:#00f}
+
+/* hover */
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {background-color:#444}
+
+/* active */
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {background-color:#111}
+
+
+/* FIELDSET & LEGEND */
+
+fieldset {
+  margin:0 0 1em;
+  padding:1em;
+  border:1px solid #333;
+}
+
+legend {
+  margin:0;
+  padding:0 10px;
+  font-weight:bold;
+}
+
+
+/* DISABLED */
+
+button[disabled],
+input[disabled],
+select[disabled],
+textarea[disabled] {
+  opacity:.7; /* buat warnanya menjadi kabur */
+  cursor:default; /* fallback */
+  cursor:not-allowed; /* CSS3 */
+}
+
+
+/* READONLY */
+
+input[type="date"][readonly],
+input[type="email"][readonly],
+input[type="number"][readonly],
+input[type="tel"][readonly],
+input[type="text"][readonly],
+input[type="url"][readonly],
+textarea[readonly],
+input[type="date"][readonly]:focus,
+input[type="email"][readonly]:focus,
+input[type="number"][readonly]:focus,
+input[type="tel"][readonly]:focus,
+input[type="text"][readonly]:focus,
+input[type="url"][readonly]:focus,
+textarea[readonly]:focus {
+  background-color:#eee;
+  cursor:default;
+}
+
+
+/* PLACEHOLDER */
+
+::-webkit-input-placeholder {color:#999} /* WebKit */
+:-ms-input-placeholder {color:#999} /* IE 9+ */
+::-moz-placeholder {color:#999} /* Firefox 19+ */
+:-moz-placeholder {color:#999} /* Firefox 18- */
+:placeholder {color:#999} /* W3C */
+
+:focus::-webkit-input-placeholder {color:#b9b989}
+:focus:-ms-input-placeholder {color:#b9b989}
+:focus::-moz-placeholder {color:#b9b989}
+:focus:-moz-placeholder {color:#b9b989}
+:focus:placeholder {color:#b9b989}
+
+/* Form Pre */
+.sr {
+    position: absolute !important;
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px 0 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden
+}

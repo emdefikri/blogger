@@ -1,0 +1,74 @@
+@charset 'UTF-8';
+
+/* ET Bembo font: <https://edwardtufte.github.io/> */
+
+/**
+ * @license
+ * All rights to the fonts present on the site belong to their rightholders.
+ * 2019 © ET Bembo
+ */
+
+@font-face {
+  font-family: 'Bembo';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://skripseni.github.io/font/bembo/roman-line-figures.eot');
+  src: url('https://skripseni.github.io/font/bembo/roman-line-figures.eot?#iefix') format('embedded-opentype'),
+       url('https://skripseni.github.io/font/bembo/roman-line-figures.woff2') format('woff2'),
+       url('https://skripseni.github.io/font/bembo/roman-line-figures.woff') format('woff'),
+       url('https://skripseni.github.io/font/bembo/roman-line-figures.ttf') format('truetype'),
+       url('https://skripseni.github.io/font/bembo/roman-line-figures.svg#roman-line-figures') format('svg');
+}
+
+@font-face {
+  font-family: 'Bembo';
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+  src: url('https://skripseni.github.io/font/bembo/display-italic-old-style-figures.eot');
+  src: url('https://skripseni.github.io/font/bembo/display-italic-old-style-figures.eot?#iefix') format('embedded-opentype'),
+       url('https://skripseni.github.io/font/bembo/display-italic-old-style-figures.woff2') format('woff2'),
+       url('https://skripseni.github.io/font/bembo/display-italic-old-style-figures.woff') format('woff'),
+       url('https://skripseni.github.io/font/bembo/display-italic-old-style-figures.ttf') format('truetype'),
+       url('https://skripseni.github.io/font/bembo/display-italic-old-style-figures.svg#display-italic-old-style-figures') format('svg');
+}
+
+@font-face {
+  font-family: 'Bembo';
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://skripseni.github.io/font/bembo/bold-line-figures.eot');
+  src: url('https://skripseni.github.io/font/bembo/bold-line-figures.eot?#iefix') format('embedded-opentype'),
+       url('https://skripseni.github.io/font/bembo/bold-line-figures.woff2') format('woff2'),
+       url('https://skripseni.github.io/font/bembo/bold-line-figures.woff') format('woff'),
+       url('https://skripseni.github.io/font/bembo/bold-line-figures.ttf') format('truetype'),
+       url('https://skripseni.github.io/font/bembo/bold-line-figures.svg#bold-line-figures') format('svg');
+}
+
+@font-face {
+  font-family: 'Bembo OSF';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://skripseni.github.io/font/bembo/roman-old-style-figures.eot');
+  src: url('https://skripseni.github.io/font/bembo/roman-old-style-figures.eot?#iefix') format('embedded-opentype'),
+       url('https://skripseni.github.io/font/bembo/roman-old-style-figures.woff2') format('woff2'),
+       url('https://skripseni.github.io/font/bembo/roman-old-style-figures.woff') format('woff'),
+       url('https://skripseni.github.io/font/bembo/roman-old-style-figures.ttf') format('truetype'),
+       url('https://skripseni.github.io/font/bembo/roman-old-style-figures.svg#roman-old-style-figures') format('svg');
+}
+
+@font-face {
+  font-family: 'Bembo SM OSF';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://skripseni.github.io/font/bembo/semi-bold-old-style-figures.eot');
+  src: url('https://skripseni.github.io/font/bembo/semi-bold-old-style-figures.eot?#iefix') format('embedded-opentype'),
+       url('https://skripseni.github.io/font/bembo/semi-bold-old-style-figures.woff2') format('woff2'),
+       url('https://skripseni.github.io/font/bembo/semi-bold-old-style-figures.woff') format('woff'),
+       url('https://skripseni.github.io/font/bembo/semi-bold-old-style-figures.ttf') format('truetype'),
+       url('https://skripseni.github.io/font/bembo/semi-bold-old-style-figures.svg#semi-bold-old-style-figures') format('svg');
+}
