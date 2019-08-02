@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p aria-hidden="true">
+  This content is not announced to screen readers.
+</p>
+
+<p hidden>...</p>
+<p style="display: none;">...</p>
+<p style="visibility: hidden;">...</p>
+
+<a href="/">
+  <span class="font-icon font-icon--home" aria-hidden="true"></span>
+  Home
+</a>
+
+
+<ul role="tablist">
+  <li role="presentation">
+    <a href="#panel_1" 
+      role="tab"
+      aria-selected="true/false" 
+      aria-controls="panel_1">
+      ...
+    </a>
+  </li>
+  <!-- etc. -->
+</ul>
+
+</body>
+</html>
