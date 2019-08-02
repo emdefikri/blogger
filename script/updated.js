@@ -31,4 +31,4 @@ function getScript(url) {
     s.src = url;
     document.body.appendChild(s)
 }
-getScript("https://skripseni.blogspot.com/feeds/posts/summary?alt=json-in-script&orderby=updated&max-results=7&callback=updatedPosts");
+getScript("https://www.emde.web.id/feeds/posts/summary?alt=json-in-script&orderby=updated&max-results=7&callback=updatedPosts");
